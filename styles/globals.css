@@ -216,7 +216,6 @@ nav ul li a {
     flex-direction: column;
     height: auto;
     width: 430px;
-    overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
   }
