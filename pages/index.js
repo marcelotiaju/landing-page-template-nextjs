@@ -1,20 +1,18 @@
 import Layout from "../src/app/components/Layout"
 import Header from "../src/app/components/Header"
-import Hero from "../src/app/components/Hero"
 import Services from "../src/app/components/Services"
-import About from "../src/app/components/About"
+import Location from "../src/app/components/Location"
 import Footer from "../src/app/components/Footer"
 import serviceSource from "../src/app/assets/services.json"
 import footerSource from "../src/app/assets/footer.json"
 
-export default function LandingPage({ services, footerLinks }) {
+export default function LandingPage() {
   return (
-    <Layout pageTitle="Landing Page Template in Next.js">
+    <Layout pageTitle="Solar With Garrett">
       <Header />
-      <Hero />
-      <Services services={services} />
-      <About />
-      <Footer links={footerLinks} />
+      <Services />
+      <Location />
+      <Footer />
     </Layout>
   )
 }
