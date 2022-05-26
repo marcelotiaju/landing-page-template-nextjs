@@ -1,11 +1,10 @@
 import React from "react"
-import { Container, Navbar, Nav } from "react-bootstrap"
 import solar from "../assets/images/solar.png"
 import Image from "next/image"
 
 export default function Header() {
   return (
-    <div className={"header"}>
+    <>
       <header id="event-subscription">
         <div className="topo">
           <div className="logo">
@@ -46,6 +45,6 @@ export default function Header() {
           </div>
         </div>
       </header>
-    </div>
+    </>
   )
 }
