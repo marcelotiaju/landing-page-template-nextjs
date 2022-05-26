@@ -238,6 +238,10 @@ nav ul li a {
     max-width: 100%;
   }
 
+  #disclaimer p {
+    margin: 2rem;
+  }
+
   /* Benefits section */
   .key-benefits {
     flex-direction: column;
@@ -255,7 +259,7 @@ nav ul li a {
   .benefit {
     max-width: 100%;
   }
-}
+
 
 /* Event location */
   .location {
@@ -291,4 +295,5 @@ nav ul li a {
 
   .footer {
     width: 450px;
+  }
   }
