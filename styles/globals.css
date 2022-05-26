@@ -215,7 +215,10 @@ nav ul li a {
   #event-subscription {
     flex-direction: column;
     height: auto;
-    width: 450px;
+    width: 430px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
   }
 
   .content {
@@ -227,7 +230,7 @@ nav ul li a {
     flex-direction: column;
     align-items: center;
     height: auto;
-    width: 100%;
+    width: 90%;
   }
 
   nav {
@@ -235,12 +238,13 @@ nav ul li a {
   }
 
   #subscription-form {
-    max-width: 100%;
+    max-width: 90%;
   }
 
   #subscription-form iframe{
     max-width: 90%;
     margin-left: 1rem;
+    border: 0;
   }
 
   #disclaimer h2 {
@@ -254,7 +258,7 @@ nav ul li a {
   /* Benefits section */
   .key-benefits {
     flex-direction: column;
-    width: 450px;
+    width: 430px;
   }
 
   .key-benefits h2 {
@@ -277,7 +281,7 @@ nav ul li a {
     flex-direction: column;
     height: auto;
     text-align: center;
-    width: 450px;
+    width: 430px;
   }
 
   #address {
@@ -305,7 +309,7 @@ nav ul li a {
   }
 
   .footer {
-    width: 450px;
+    width: 430px;
   }
 
   .foot h3 p{
