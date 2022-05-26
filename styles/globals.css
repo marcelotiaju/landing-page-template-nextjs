@@ -238,6 +238,15 @@ nav ul li a {
     max-width: 100%;
   }
 
+  #subscription-form iframe{
+    max-width: 90%;
+    margin-left: 1rem;
+  }
+
+  #disclaimer h2 {
+    font-size: 2.5rem;
+  }
+
   #disclaimer p {
     margin: 2rem;
   }
@@ -250,6 +259,8 @@ nav ul li a {
 
   .key-benefits h2 {
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
     .benefits {
@@ -257,7 +268,7 @@ nav ul li a {
   }
 
   .benefit {
-    max-width: 100%;
+    max-width: 90%;
   }
 
 
@@ -272,7 +283,7 @@ nav ul li a {
   #address {
     order: 2;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 90%
   }
 
   #address i {
@@ -281,7 +292,7 @@ nav ul li a {
 
   #about-location {
     order: 1;
-    max-width: 100%;
+    max-width: 90%;
     margin-top: 1rem;
   }
 
@@ -295,5 +306,9 @@ nav ul li a {
 
   .footer {
     width: 450px;
+  }
+
+  .foot h3 p{
+    max-width: 90%
   }
   }
